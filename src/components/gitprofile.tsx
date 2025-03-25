@@ -199,6 +199,13 @@ const GitProfile = ({ config }: { config: Config }) => {
                 <div className="col-span-1">
                   <div className="grid grid-cols-1 gap-6">
                     {!sanitizedConfig.themeConfig.disableSwitch && (
+                      <ThemeChanger
+                        theme={theme}
+                        setTheme={setTheme}
+                        loading={loading}
+                        themeConfig={sanitizedConfig.themeConfig}
+                      />
+                    )}
                     <AvatarCard
                       profile={profile}
                       loading={loading}
@@ -264,6 +271,13 @@ const GitProfile = ({ config }: { config: Config }) => {
                           sanitizedConfig.projects.external.projects
                         }
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {sanitizedConfig.blog.display && (
+                      <BlogCard
+                        loading={loading}
+                        googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                        blog={sanitizedConfig.blog}
                       />
                     )}
                   </div>

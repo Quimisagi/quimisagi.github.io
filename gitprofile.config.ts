@@ -100,18 +100,11 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Muxbit',
+      position: 'System Engineer',
+      from: 'February 2022',
+      to: 'December 2023',
+      companyLink: 'https://www.muxbit.com/https://www.muxbit.com/',
     },
   ],
   certifications: [
@@ -124,16 +117,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Valle University',
+      degree: 'Bachelor of Systems Engineering',
+      from: '2016',
+      to: '2022',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University of Aizu',
+      degree: 'Master of Computer Science',
+      from: '2024',
+      to: '2026',
     },
   ],
   publications: [
@@ -175,7 +168,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
