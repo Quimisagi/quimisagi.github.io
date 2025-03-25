@@ -29,6 +29,26 @@ const CONFIG = {
       },
     },
     external: {
+      header: 'Game-jams participation',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Awacell',
+          description:
+            'Game created for the Global Game Jam 2025 in Koriyama, Fukushima. The theme was "Bubble". The player has to full the screen of bubbles of colors and merge then. When the screen is full, pop them! ',
+          imageUrl:
+            'https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/flexslider_full/s3/games/2025/117024/screenshot/1.png?VersionId=35fqg5XI20_KzcbctmtZwC6OjyESGTUC&itok=i3aAK2hc',
+          link: 'https://quimisagii.itch.io/awacellhttps://quimisagii.itch.io/awacell',
+        },
+        {
+          title: 'Little Psycho',
+          description:
+            'Created for the theme "Duality" during the Global Game Jam 2022. This game follows a cute little girl with murderous tendencies. The player controls her as she navigates a village, trying to avoid killing anyone while assisting her sister with her tasks.',
+          imageUrl:
+            'https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2022/01/341637/portada.png?itok=a6177m6r&timestamp=1643579910',
+          link: 'https://kingjuanfel.itch.io/little-psychohttps://kingjuanfel.itch.io/little-psycho',
+        },
+      ],
     },
   },
   seo: {
